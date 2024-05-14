@@ -1,0 +1,281 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    max-width: 1248px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.hero{
+    width: 100%;
+    height: 1064px;
+    background: rgb(245,245,245);
+}
+
+.heading{
+font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+text-align: center;
+margin-top: 40px;
+}
+
+.paragraph{
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+margin-top: 28px;
+}
+
+.main__photo{
+display: flex;
+margin: auto;
+margin-top: 80px;
+}
+
+.trusted{
+    height: 741px;
+}
+
+.main__heading{
+font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+text-align: center;
+margin-top: 88px;
+}
+
+.main__pictures{
+    height: 448px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 75.5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card{
+    width: 320px;
+    height: 438px;
+    background: rgb(245,245,245);
+    border-radius: 10px;
+}
+
+.clinique{
+    margin-top: 30px ;
+}
+
+.clinique__text{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+display: flex;
+text-align: center;
+color: rgb(111,44,255,1);
+margin: 20px 67px;
+}
+
+.river{
+    margin-top: 30px;
+}
+
+.river__text{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+display: flex;
+text-align: center;
+color: rgb(111,44,255,1);
+margin: 25px 67px;
+}
+
+.m__{
+    margin-top: 25px;
+}
+
+.m__text{
+width: 211px;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+display: flex;
+text-align: center;
+color: rgb(111,44,255,1);
+margin: 25px 67px;
+}
+
+.last__section{
+    width: 100%;
+    height: 950px;
+    background: rgb(245,245,245,1);
+}
+
+.last__heading{
+font-family: Roboto;
+font-size: 40px;
+font-weight: 700;
+line-height: 45px;
+text-align: center;
+margin-top: 40px;
+}
+
+.last__paragraph{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+margin-top: 12px;
+}
+
+.last__cards{
+width: 1050px;
+height: 687px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 30px;
+margin-top: 57px;
+}
+
+.last__card{
+width: 492px;
+/* height: 199px; */
+background: rgb(23,0, 46);
+border-radius: 8px 10px 10px 8px;
+padding: 30px  130px 22px 32px ;
+}
+
+.beauty__heading{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 700;
+line-height: 25px;
+text-align: left;
+color: rgb(245,254 ,245,1);
+}
+
+.beauty__paragraph{
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+text-align: left;
+color: rgb(245,254 ,245,1);
+margin-bottom: 10px;
+}
+
+.card__text{
+font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 15px;
+text-align: left;
+color: rgb(245,254 ,245,1);
+}
+
+.fashion__paragraph{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgb(245,254 ,245,1);
+    margin-bottom: 10px;
+}
+.luxury__paragraph{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgb(245,254 ,245,1);
+    margin-bottom: 35px;
+    }
+.airline__paragraph{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgb(245,254 ,245,1);
+    margin-bottom: 12px;
+    }
+.travel__paragraph{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgb(245,254 ,245,1);
+    margin-bottom: 34px;
+    }
+.betting__paragraph{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: rgb(245,254 ,245,1);
+    margin-bottom: 12px;
+    }
+
+.horizontal{
+    width: 383px;
+    height: 2px;
+    margin-top: 10px;
+}
+
+.fashion__hr{
+width: 266px;
+height: 2px;
+margin-top: 10px ;
+}
+
+.luxury__hr{
+width: 255px;
+height: 2px;
+margin-top: 10px;
+}
+
+.airline__hr{
+width: 264px;
+height: 2px;
+margin-top: 10px;
+}
+
+.travel__hr{
+width: 350px;
+height: 2px;
+margin-top: 10px;
+}
+
+.betting__hr{
+width: 320px;
+height: 2px;
+margin-top: 10px;
+}
+
+.sss{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(245,254 ,245,1);
+    gap: 20px;
+    margin-bottom: 17px;
+}
